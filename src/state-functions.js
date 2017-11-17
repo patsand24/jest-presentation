@@ -1,3 +1,5 @@
+//Pure functions
+
 export const toggleTodo = (state, index) => {
   if(index === undefined || index < 0 || index >= state.todos.length){
     return state
